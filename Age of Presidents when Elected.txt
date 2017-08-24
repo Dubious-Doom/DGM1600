@@ -8,3 +8,6 @@ James Monroe				58
 John Quincy Adams			57
 Andrew Jackson 				61
 Martin Van Buren 			54
+William Henry Harrison			68
+John Tyler				51
+James Knox Polk				49
