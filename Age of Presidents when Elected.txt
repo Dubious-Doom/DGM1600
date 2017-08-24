@@ -29,3 +29,6 @@ Theodore Roosevelt			42
 William Howard Taft 			51
 Woodrow Wilson				56
 Warren Gamaliel Harding			55
+Calvin Coolidge 			51
+Herbert Clark Hoover			54
+Franklin Delano Roosevelt		51
