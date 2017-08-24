@@ -14,3 +14,6 @@ James Knox Polk				49
 Zachary Taylor				64
 Millard Fillmore			50
 Franklin Pierce				48
+James Buchanan				65
+Abraham Lincoln				52
+Andrew Johnson				56
