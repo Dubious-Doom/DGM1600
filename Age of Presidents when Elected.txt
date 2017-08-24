@@ -35,3 +35,6 @@ Franklin Delano Roosevelt		51
 Harry S. Truman 			60
 Dwight David Eisenhower			62
 John Fitzgerald Kennedy			43
+Lyndon Baines Johnson			55
+Richard Milhous Nixon			56
+Gerald Rudolph Ford			61
