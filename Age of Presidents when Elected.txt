@@ -1,1 +1,3 @@
 President				Age
+George Washington			57
+John Adams				61
