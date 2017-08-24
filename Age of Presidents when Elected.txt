@@ -11,3 +11,6 @@ Martin Van Buren 			54
 William Henry Harrison			68
 John Tyler				51
 James Knox Polk				49
+Zachary Taylor				64
+Millard Fillmore			50
+Franklin Pierce				48
