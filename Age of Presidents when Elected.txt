@@ -23,3 +23,6 @@ James Abram Garfield			49
 Chester Alan Arthur			51
 Grover Cleveland			47
 Benjamin Harrison			55
+Grover Cleveland (again)		55
+William McKinley 			54
+Theodore Roosevelt			42
