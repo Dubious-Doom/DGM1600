@@ -20,3 +20,6 @@ Andrew Johnson				56
 Ulysses Simpson Grant			46
 Rutherford Birchard Hayes		54
 James Abram Garfield			49
+Chester Alan Arthur			51
+Grover Cleveland			47
+Benjamin Harrison			55
