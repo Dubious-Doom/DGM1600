@@ -17,3 +17,6 @@ Franklin Pierce				48
 James Buchanan				65
 Abraham Lincoln				52
 Andrew Johnson				56
+Ulysses Simpson Grant			46
+Rutherford Birchard Hayes		54
+James Abram Garfield			49
