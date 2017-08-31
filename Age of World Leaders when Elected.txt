@@ -6,3 +6,5 @@ Emmanuel Macron		France			39
 Xi Jinping		China			60
 Shinzo Abe		Japan			57
 Justin Trudeau		Canada			42
+Michel Temer		Brazil			75
+Nicolas Maduro		Venezuela		50
