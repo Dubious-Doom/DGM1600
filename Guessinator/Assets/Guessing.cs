@@ -19,6 +19,9 @@ public class Guessing : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (Input.GetKeyDown(KeyCode.UpArrow)) {
+			print ("fun stuff");
+			print ("other stuff");
+		}
 	}
 }
