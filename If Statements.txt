@@ -1,0 +1,24 @@
+If statements are a useful conditional used in C# (and numerous other programming languages). 
+An if statement will check the parameters within the parentheses (). 
+If that parameter is true, then the commands within the statements curly brackets {} will be executed.
+A simple use for an if statement is to trigger code after a variable is determined to equal a certain value.
+Say I had two variables: a boolean called "trigger," and an integer called "x".
+My if statement might look like this:
+
+	if (trigger == true){
+		x = x *2;
+	}
+
+Once the value of the boolean trigger becomes true, then the condition is met for the if statement to run the operation x = x *2.
+An if statement can contain all kinds of parameters. 
+They might be equalities as demonstrated above, inequalities, and/or/xor logic gates combining those conditions, or even user inputs.
+In the context of a game engine, such as Unity, if statements can act as direct connections between user interaction and code execution.
+Say I want increment "x" by 1 everytime the user presses the Up Arrow. 
+My code might look like this:
+
+	if (Input.GetKeyDown(KeyCode.UpArrow)){
+		x++;
+	}	
+
+If I were to include this statement in a C# script and then run that script in Unity engine, a press of the Up Arrow would cause the variable "x" to increase by 1.
+While these have been basic examples, they are a fundamental explanation of how if statements work and what applications they might have.
