@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Guessing.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assets\Guessing.cs" Line="4" Column="21" />
     </Files>
