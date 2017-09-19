@@ -19,11 +19,11 @@ Platform assembly: C:\Users\Drew Fischer\DGM1600\Guessing_Game_Data\Managed\Unit
 Loading C:\Users\Drew Fischer\DGM1600\Guessing_Game_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
 Platform assembly: C:\Users\Drew Fischer\DGM1600\Guessing_Game_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\Drew Fischer\DGM1600\Guessing_Game_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.243 seconds
+- Completed reload, in  0.231 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 5.778770 ms
+UnloadTime: 5.783037 ms
 Welcome to Number Guesser
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -40,7 +40,7 @@ The lowest number you can pick is 1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Is the number higher or lower than 28?
+Is the number higher or lower than 89?
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -48,19 +48,23 @@ Up arrow for higher, Down for lower, Enter for equal
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Is the number higher or lower than 14?
+Is the number higher or lower than 45?
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Is the number higher or lower than 21?
+Is the number higher or lower than 67?
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Is the number higher or lower than 17?
+Is the number higher or lower than 78?
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Is the number higher or lower than 15?
+Is the number higher or lower than 72?
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Is the number higher or lower than 75?
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -69,5 +73,5 @@ I win
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 470c -> priority: 1 
-  Thread -> id: 21b4 -> priority: 1 
+  Thread -> id: d674 -> priority: 1 
+  Thread -> id: 1208 -> priority: 1 
