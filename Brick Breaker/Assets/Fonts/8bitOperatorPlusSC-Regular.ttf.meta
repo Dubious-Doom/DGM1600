@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8133b4ec098fb6d4ab87cd530762f9b8
+timeCreated: 1507047908
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 8-bit Operator+ SC
+  fontNames:
+  - 8-bit Operator+ SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 84939f43da80b1b4d89f8e0ce2ce5ce1, type: 3}
+  - {fileID: 12800000, guid: b4ae1da62443f6c469bdb873683ee195, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
