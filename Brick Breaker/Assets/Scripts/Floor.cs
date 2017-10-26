@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionManager : MonoBehaviour {
+public class Floor : MonoBehaviour {
 	public LevelManager myLevelManager;
 
 
