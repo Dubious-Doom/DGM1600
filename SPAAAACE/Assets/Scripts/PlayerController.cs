@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour {
 	public GameObject projectile;
 	public Transform shotPos;
 	public float shotForce;
+	public int health;
+	public ParticleSystem particles;
 
 
 	// Use this for initialization
@@ -34,41 +36,57 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKey (KeyCode.UpArrow)) {
 			rigid.velocity = new Vector2 (0, speed);
 			transform.localEulerAngles = new Vector3 (0, 0, 0);
-		}
+			particles.Emit (1);
+		} 
+			
 
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			rigid.velocity = new Vector2 (0, -speed);
 			transform.localEulerAngles = new Vector3 (0, 0, 180);
+			particles.Emit (1);
 				}
 
 		if (Input.GetKey (KeyCode.RightArrow)) {
 			rigid.velocity = new Vector2 (speed, 0);
 			transform.localEulerAngles = new Vector3 (0, 0, -90);
+			particles.Emit (1);
 		}
 
 		if (Input.GetKey (KeyCode.LeftArrow)) {
 			rigid.velocity = new Vector2 (-speed, 0);
 			transform.localEulerAngles = new Vector3 (0, 0, 90);
+			particles.Emit (1);
 		}
 
 		if (Input.GetKey (KeyCode.UpArrow) && Input.GetKey (KeyCode.RightArrow)) {
 			rigid.velocity = new Vector2 (speed, speed);
 			transform.localEulerAngles = new Vector3 (0, 0, -45);
+			particles.Emit (1);
 		}
 
 		if (Input.GetKey (KeyCode.DownArrow) && Input.GetKey (KeyCode.RightArrow)) {
 			rigid.velocity = new Vector2 (speed, -speed);
 			transform.localEulerAngles = new Vector3 (0, 0, -135);
+			particles.Emit (1);
 		}
 
 		if (Input.GetKey (KeyCode.DownArrow) && Input.GetKey (KeyCode.LeftArrow)) {
 			rigid.velocity = new Vector2 (-speed, -speed);
 			transform.localEulerAngles = new Vector3 (0, 0, 135);
+			particles.Emit (1);
 		}
 
 		if (Input.GetKey (KeyCode.UpArrow) && Input.GetKey (KeyCode.LeftArrow)) {
 			rigid.velocity = new Vector2 (-speed, speed);
 			transform.localEulerAngles = new Vector3 (0, 0, 45);
+			particles.Emit (1);
+		}
+
+		switch (health) {
+		case 1: //do something; break;
+		case 2:
+		default:
+			break;
 		}
 	}
 }
