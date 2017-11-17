@@ -17,8 +17,14 @@ public class Meteor : MonoBehaviour {
 	public void OnCollisionEnter2D (Collision2D collider){
 		print ("Meteor Collision");
 		health--;
+
+		if (health <= 0){
+			Destroy(this.gameObject);
+		}
 	}
-	
+
+
+		
 	// Update is called once per frame
 	void Update () {
 		
