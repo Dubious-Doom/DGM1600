@@ -113,6 +113,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   startingSpin: 0
+  explosionEffect: {fileID: 1693825016194106, guid: 4b2b77a3cc699ee42a07ede32082b7d4,
+    type: 2}
 --- !u!212 &212618048845309366
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -8,6 +8,8 @@ public class Meteor : MonoBehaviour {
 
 	public float startingSpin;
 
+	public GameObject explosionEffect;
+
 	// Use this for initialization
 	void Start () {
 		GetComponent<Rigidbody2D> ().AddTorque (Random.Range(-startingSpin, startingSpin), ForceMode2D.Impulse);
@@ -20,6 +22,7 @@ public class Meteor : MonoBehaviour {
 
 		if (health <= 0){
 			Destroy(this.gameObject);
+			Instantiate (explosionEffect, transform.position, Quaternion.identity);
 		}
 	}
 

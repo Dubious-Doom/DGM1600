@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour {
 
-	public enum PowerupType {fancyFeast, shield, gottaGoFast};
+	public enum PowerupType {healthPickup, shield, gottaGoFast};
 	public PowerupType myType;
 	public Sprite[] images;
 
 	// Use this for initialization
 	void Start () {
 		switch (myType) {
-		case PowerupType.fancyFeast:
+		case PowerupType.healthPickup:
 			gameObject.GetComponent<SpriteRenderer> ().sprite = images [0];
 			break;
 		case PowerupType.shield:
@@ -36,7 +36,7 @@ public class PowerUp : MonoBehaviour {
 		case PowerupType.gottaGoFast:
 			other.GetComponent<PlayerController> ().speed *= 1.8f;
 			break;
-		case PowerupType.fancyFeast:
+		case PowerupType.healthPickup:
 
 			break;
 		case PowerupType.shield:
