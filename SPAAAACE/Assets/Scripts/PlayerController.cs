@@ -12,16 +12,39 @@ public class PlayerController : MonoBehaviour {
 	public float shotForce;
 	public int health;
 	public ParticleSystem particles;
+	public GameObject[] hearts;
+	public GameObject explosionEffect;
 
 
 	// Use this for initialization
 	void Start () {
 		rigid = this.GetComponent<Rigidbody2D> ();
 		transform = this.GetComponent<Transform> ();
+
+		ShowHearts ();
+	}
+
+	private void ShowHearts(){
+		//Turn off all hearts
+		for (int i = 0; i < hearts.Length; i++) {
+			hearts [i].SetActive (false);
+		}
+
+		//Turn hearts according to health
+		for(int i = 0; i < health; i++){
+			hearts [i].SetActive (true);
+		}
 	}
 
 	public void OnCollisionEnter2D (Collision2D collider){
 		print ("Ship Collision");
+		health--;
+		ShowHearts ();
+
+		if (health <= 0){
+			Destroy(this.gameObject);
+			Instantiate (explosionEffect, transform.position, Quaternion.identity);
+		}
 	}
 	
 	// Update is called once per frame
