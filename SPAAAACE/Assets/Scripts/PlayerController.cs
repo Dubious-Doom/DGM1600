@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 	void Start () {
 		rigid = this.GetComponent<Rigidbody2D> ();
 		transform = this.GetComponent<Transform> ();
+		print (GetComponent<Meteor>().GetHealth());
 
 		ShowHearts ();
 	}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Meteor : MonoBehaviour {
 
@@ -9,6 +10,8 @@ public class Meteor : MonoBehaviour {
 	public float startingSpin;
 
 	public GameObject explosionEffect;
+
+	public Text scoreBoard;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +26,14 @@ public class Meteor : MonoBehaviour {
 		if (health <= 0){
 			Destroy(this.gameObject);
 			Instantiate (explosionEffect, transform.position, Quaternion.identity);
+			IncrementScore ();
 		}
+	}
+
+	public int GetHealth(){
+		//fun code
+
+		return health;
 	}
 
 
@@ -31,5 +41,9 @@ public class Meteor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	private void IncrementScore(){
+		scoreBoard.text += 10;
 	}
 }
