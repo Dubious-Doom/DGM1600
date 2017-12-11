@@ -106,6 +106,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifetime: 5
   speed: 15
+  ship: {fileID: 1630734495547858, guid: 910322e21b62bb24883197b9f6589772, type: 2}
+  playerControllerScript: {fileID: 114870669937787876, guid: 910322e21b62bb24883197b9f6589772,
+    type: 2}
 --- !u!212 &212319057490395130
 SpriteRenderer:
   m_ObjectHideFlags: 1

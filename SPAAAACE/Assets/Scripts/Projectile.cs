@@ -6,10 +6,13 @@ public class Projectile : MonoBehaviour {
 
 	public float lifetime;
 	public float speed;
-
+	public GameObject ship;
+	public PlayerController playerControllerScript;
 
 	// Use this for initialization
 	void Start () {
+		playerControllerScript = FindObjectOfType<PlayerController> ();
+		speed = playerControllerScript.speed * 1.8f;
 		
 	}
 
@@ -22,6 +25,7 @@ public class Projectile : MonoBehaviour {
 	void Update () {
 		//This causes lifetime to decrement in realtime instead of based on clock cycles
 		lifetime -= Time.deltaTime;
+
 
 
 		if (lifetime <= 0) {
