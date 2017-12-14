@@ -15,9 +15,12 @@ public class Meteor : MonoBehaviour {
 
 	public Scoreboard scoreScript;
 
+	float speed = 1;
+
 	// Use this for initialization
 	void Start () {
 		GetComponent<Rigidbody2D> ().AddTorque (Random.Range(-startingSpin, startingSpin), ForceMode2D.Impulse);
+		GetComponent<Rigidbody2D>().velocity = Random.onUnitSphere * speed;
 		health = Random.Range (5, 8);
 		scoreScript = FindObjectOfType<Scoreboard> ();
 	}

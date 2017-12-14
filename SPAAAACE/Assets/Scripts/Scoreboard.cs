@@ -13,17 +13,6 @@ public class Scoreboard : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		score = 0;
-		if (display != null) {
-			display.text = GetScore.ToString ();
-		}
-
-		if (highscoreDisplay != null) {
-			highscoreDisplay.text = PlayerPrefs.GetInt("PrevScore").ToString ();
-		}
-
-		if (prevScoreDisplay != null) {
-			prevScoreDisplay.text = score.ToString ();
-		}
 			
 
 	}

@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public ParticleSystem particles;
 	public GameObject[] hearts;
 	public GameObject explosionEffect;
+	public LevelManager myLevelManager;
 
 
 	// Use this for initialization
@@ -45,6 +46,7 @@ public class PlayerController : MonoBehaviour {
 		if (health <= 0){
 			Destroy(this.gameObject);
 			Instantiate (explosionEffect, transform.position, Quaternion.identity);
+			myLevelManager.LevelLoad ("GameOver");
 		}
 	}
 	
